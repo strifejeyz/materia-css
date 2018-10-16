@@ -1,0 +1,274 @@
+.material {
+    font-size: 16px;
+    font-family: 'Segoe UI', Helvetica;
+}
+
+body.login {
+    background: #74c25a;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Segoe UI Light', Helvetica;
+}
+
+/* BUTTONS */
+.material .btn{
+    font-family: 'Segoe UI',Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    border: none;
+    min-width: 120px;
+    text-align: center;
+    box-shadow: 0 5px 10px #eeeeee;
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 3px;
+    vertical-align: middle;
+    white-space: nowrap;
+    line-height: 1.42857143;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #666666;
+    letter-spacing: 0.2px;
+    transition: .2s;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 0 3px 5px #cfcfcf;
+}
+.material .btn:hover{
+    box-shadow: 0 5px 20px #cccccc;
+}
+
+/* Button themes */
+.material .btn.btn-inverse{
+    background: #333333;
+    color: #ffffff;
+    text-shadow: 0 3px 5px #111111;
+}
+.material .btn.btn-inverse:hover{
+    background: #2a2a2a;
+}
+.material .btn.btn-red{
+    background: #ff1c0a;
+    text-shadow: 0 3px 5px #666666;
+    color: #ffffff;
+}
+.material .btn.btn-red:hover{
+    background: #f41f0e
+}
+.material .btn.btn-purple{
+    background: #bd3ebd;
+    text-shadow: 0 3px 5px #666666;
+    color: #ffffff;
+}
+.material .btn.btn-purple:hover{
+    background: #ac37ac;
+}
+.material .btn.btn-aqua{
+    background: #00ccff;
+    text-shadow: 0 3px 5px #555555;
+    color: #ffffff;
+}
+.material .btn.btn-aqua:hover{
+    background: #00bbee;
+}
+.material .btn.btn-blue{
+    background: #4c99ff;
+    text-shadow: 0 3px 5px #666666;
+    color: #ffffff;
+}
+.material .btn.btn-blue:hover{
+    background: #468ce7;
+}
+.material .btn.btn-green{
+    background: #02ce6c;
+    text-shadow: 0 3px 5px #666666;
+    color: #ffffff;
+}
+.material .btn.btn-green:hover{
+    background: #0ac36b
+}
+
+/* Sizing */
+.material .btn.x0{
+    padding-bottom: 8px;
+    padding-top: 6px;
+    font-size: 12px;
+    min-width: 110px;
+}
+.material .btn.x1{
+    padding-bottom: 10px;
+    padding-top: 8px;
+    font-size: 14px;
+    min-width: 120px;
+}
+.material .btn.x2{
+    padding-bottom: 12px;
+    padding-top: 10px;
+    font-size: 16px;
+    min-width: 130px;
+}
+.material .btn.x3{
+    padding-bottom: 14px;
+    padding-top: 12px;
+    font-size: 18px;
+    min-width: 140px;
+}
+
+/* Forms */
+.material .form-group {
+    padding: 0;
+    display: inline-table;
+    margin: 10px 0;
+    width: 100%;
+}
+.material .form-group label {
+    display: block;
+    font-family: 'Segoe UI', Helvetica;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+    color: #444444;
+}
+.material .form-group .form-control {
+    border: none;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    font-family: 'Segoe UI', Helvetica;
+    color: #666666;
+    box-shadow: 0 1px 5px #dddddd;
+    border-radius: 2px;
+}
+.material .form-group .form-control:focus {
+    box-shadow: 0 5px 10px #cccccc;
+}
+.material .form-group.error label {
+    color: red;
+}
+.material .form-group.error .form-control {
+    border-color: #ff4433;
+}
+
+/* Legend */
+.material .float {
+    display: table-cell;
+    width: 70px;
+    height: 70px;
+    background: #e4e4e4;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 35px;
+    border-radius: 100%;
+    color: #ffffff;
+    box-shadow: 0 5px 20px #c8c8c8;
+    transition: .3s;
+}
+.material .float:hover{
+    transform: scale(1.2);
+}
+.material .float.circle{
+    border-radius: 100%;
+}
+.material .float.square{
+    border-radius: 0;
+}
+.material .float.radial{
+    border-radius: 10px;
+}
+.material .float.float-inverse {
+    background: #262626;
+    color: #ffffff;
+    text-shadow: 0 3px 5px #000000;
+}
+.material .float.float-green {
+    background: #02ce6c;
+    color: #ffffff;
+    text-shadow: 0 3px 5px #555555;
+}
+.material .float.float-red {
+    background: #ff3f30;
+    color: #ffffff;
+    text-shadow: 0 3px 5px #555555;
+}
+.material .float.float-blue {
+    background: #4c99ff;
+    color: #ffffff;
+    text-shadow: 0 3px 5px #555555;
+}
+.material .float.float-aqua {
+    background: #00ccff;
+    color: #ffffff;
+    text-shadow: 0 3px 5px #555555;
+}
+.material .float.float-purple {
+    background: #bd3ebd;
+    color: #ffffff;
+    text-shadow: 0 3px 5px #555555;
+}
+/* WELL */
+.well{
+    background-color: white;
+    border:none;
+    border-radius: 0;
+    -webkit-box-shadow: 0 5px 15px #cccccc;
+    -moz-box-shadow: 0 5px 15px #cccccc;
+    -ms-box-shadow: 0 5px 15px #cccccc;
+    -o-box-shadow: 0 5px 15px #cccccc;
+    box-shadow: 0 5px 15px #cccccc
+}
+.well .title {
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.well .title > small {
+    display: block;
+    font-size: 14px;
+    color: #888888;
+    font-weight: normal;
+    text-transform: none;
+}
+.well .link {
+    display: inline-table;
+    margin: 15px 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #777777;
+    font-style: normal;
+    cursor: pointer;
+}
+.well a.link {
+    color: #168cd0
+}
+.span {
+    width: 100%;
+}
+.inverse-shadow {
+    box-shadow: 0 7px 15px #000000;
+}
+.shadow {
+    box-shadow: 0 7px 15px #cccccc;
+}
+/* LOGIN */
+.login .well {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    box-shadow: 0 3px 25px #666666;
+    border-top: 10px solid #1de17c
+}
+.login .well .form-control {
+    box-shadow: none;
+    padding: 25px 10px;
+}
+
+
